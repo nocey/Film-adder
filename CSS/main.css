@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 100%;
+    height: auto;
+}
+
+.parca {
+    width: 75%;
+    margin: 0 auto;
+    height: auto;
+    background-color: #001f3f;
+    border: 1px solid #e71d36;
+    border-collapse: collapse;
+    color: white;
+}
+
+.parca:first-child {
+    margin-top: 5rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.parca:last-child {
+    border-radius: 0 0 1rem 1rem;
+}
+
+#baslik {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.text-area {
+    height: 2rem;
+    margin: 0.75rem auto;
+    width: 20%;
+    margin-left: 1.5rem;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+
+.text-area:focus {
+    box-shadow: 0 0 0 0.1rem #0074D9;
+    outline: 0;
+}
+
+#tablo {
+    width: 100%;
+    border: 1px white;
+    border-collapse: collapse;
+}
+
+#baş {
+    background-color: #5a189a;
+}
+
+#baş th {
+    padding: 1.5rem;
+}
+
+#baş th :nth-child() {}
+
+img {
+    width: 7rem;
+    margin-top: 0.5rem;
+}
+
+#alt-taraf:nth-child(odd) {
+    background-color: #9d4edd;
+}
+
+.btn {
+    margin: 0.5rem;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    background-color: #FFDC00;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #001f3f;
+    border: 0.1rem solid #FFDC00;
+    padding: 0.6rem;
+    color: white;
+}
+
+.hata {
+    padding: 1.5rem;
+    width: 75%;
+    background-color: #e71d36;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
+}
+
+#filmsil {
+    float: right;
+}
+
+h3 {
+    margin: auto;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Film Project</title>
+</head>
+
+<body>
+    <div id="main">
+        <div class="parca">
+            <h1 id="baslik">Film Listem</h1>
+        </div>
+        <div class="parca" id="films">
+            <input type="text" name="isim" id="film-isim" class="text-area" placeholder="Filmin ismini giriniz">
+            <input type="text" name="yönetmen" id="film-yonetmen" class="text-area" placeholder="Filmin yönetmen ismini giriniz">
+            <input type="text" name="link" id="film-link" class="text-area" placeholder="Filmin linkini giriniz">
+            <button type="button" class="btn" id="addfilm">Filmi Ekle</button>
+        </div>
+
+        <div class="parca">
+            <h3 id="baslik">Filmler</h3>
+        </div>
+        <div class="parca">
+            <table id="tablo">
+                <thead>
+                    <tr id="baş">
+                        <th>Filmin Afişi</th>
+                        <th>Filmin Adı</th>
+                        <th>Filmin yönetmen</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyfilm">
+                    <!-- <tr id="alt-taraf">
+                        <th>
+                            <img src="https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" alt="">
+                        </th>
+                        <th>
+                            <h3>İnterstellar</h3>
+                        </th>
+                        <th>
+                            <h3>Christopher Nolan</h3>
+                        </th>
+                    </tr> -->
+                </tbody>
+                <tr id="alt-taraf">
+            </table>
+        </div>
+        <div class="parca">
+            <button type="button" class="btn" id="del-all">Tüm Filmleri Sil</button>
+        </div>
+
+    </div>
+    <script src="js/film.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/project.js"></script>
+</body>
+
+</html>
